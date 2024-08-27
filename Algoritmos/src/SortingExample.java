@@ -19,7 +19,7 @@ public class SortingExample {
             System.out.println("");
 
             System.out.print(
-                    "Escolha o algoritmo: ordenação crescente->(1: BubbleSortC, 2: InsertionSortC, 3: SelectionSortC, 4: MergeSortC, 5: QuickSortC, 6: HeapSortC), ordenação descrecente->(7: BubbleSortD, 8: InsertionSortD, 9: SelectionSortD, 10: MergeSortD, 12: HeapSortD),-> ordenacao aleatorio(14: InsertionSortA, 15: SelectionSortA, 16: MergeSortA, 17: QuickSortA, 18: HeapSortA, 19: encerrar aplicacao): ");
+                    "Escolha o algoritmo: ordenação crescente->(1: BubbleSortC, 2: InsertionSortC, 3: SelectionSortC, 4: MergeSortC, 5: QuickSortC, 6: HeapSortC), ordenação descrecente->(7: BubbleSortD, 8: InsertionSortD, 9: SelectionSortD, 10: MergeSortD, 11: QuickSortD, 12: HeapSortD),-> ordenacao aleatorio(13: BubbleSortA, 14: InsertionSortA, 15: SelectionSortA, 16: MergeSortA, 17: QuickSortA, 18: HeapSortA, 19: encerrar aplicacao): ");
             int choice = scanner.nextInt();
 
             if (choice == 19) {
@@ -209,7 +209,8 @@ public class SortingExample {
                     break;
                 case 12:
                     exportarResultados(algorithm, n, tempoExecucao, "resultadosHeapSortDescrescente.txt");
-                    case 13:
+                    break;
+                case 13:
                     exportarResultados(algorithm, n, tempoExecucao, "resultadosBublleSortAleatorio.txt");
                     break;
                 case 14:
