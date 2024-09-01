@@ -94,7 +94,6 @@ public class OrdenacaoDecrescente {
     }
 
     public void quickSort(int[] arr, int low, int high) {
-        double tempoInicial = System.currentTimeMillis();
 
         if (low < high) {
             int pi = partition(arr, low, high);
@@ -102,10 +101,6 @@ public class OrdenacaoDecrescente {
             quickSort(arr, low, pi);
             quickSort(arr, pi + 1, high);
         }
-
-        double tempoFinal = System.currentTimeMillis();
-        double tempoExecucao = tempoFinal - tempoInicial;
-        System.out.println("Tempo de execução em milissegundos: " + tempoExecucao);
     }
 
     private static int partition(int[] arr, int low, int high) {

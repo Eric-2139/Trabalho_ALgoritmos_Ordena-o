@@ -245,5 +245,4 @@ public class SortingExample {
             System.out.println("Erro ao exportar os resultados: " + e.getMessage());
         }
     }
-
 }
