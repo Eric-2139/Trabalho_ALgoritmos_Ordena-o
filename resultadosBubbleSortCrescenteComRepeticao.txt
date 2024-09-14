@@ -1,3 +1,0 @@
-crescente_com_repeticao.txt                   BubbleSort                100000               1,2490
-crescente_com_repeticao.txt                   BubbleSort                160000               2,8460
-crescente_com_repeticao.txt                   BubbleSort                220000               5,5490
