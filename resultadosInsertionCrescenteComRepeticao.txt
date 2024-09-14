@@ -1,0 +1,1 @@
+crescente_com_repeticao.txt                   Insertion                 700000               0,0060
