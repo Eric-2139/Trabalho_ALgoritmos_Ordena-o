@@ -1,0 +1,12 @@
+crescente_sem_repeticao.txt                   MergeSort                 100000               0,0040
+crescente_sem_repeticao.txt                   MergeSort                 160000               0,0060
+crescente_sem_repeticao.txt                   MergeSort                 220000               0,0100
+crescente_sem_repeticao.txt                   MergeSort                 280000               0,0130
+crescente_sem_repeticao.txt                   MergeSort                 340000               0,0120
+crescente_sem_repeticao.txt                   MergeSort                 400000               0,0170
+crescente_sem_repeticao.txt                   MergeSort                 460000               0,0190
+crescente_sem_repeticao.txt                   MergeSort                 520000               0,0220
+crescente_sem_repeticao.txt                   MergeSort                 580000               0,0230
+crescente_sem_repeticao.txt                   MergeSort                 640000               0,0280
+crescente_sem_repeticao.txt                   MergeSort                 700000               0,0300
+

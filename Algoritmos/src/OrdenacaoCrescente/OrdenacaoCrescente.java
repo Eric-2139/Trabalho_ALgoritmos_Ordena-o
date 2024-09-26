@@ -103,42 +103,6 @@ public class OrdenacaoCrescente {
         }
     }
 
-    /*
-    public void quickSort(int[] vetor) {
-        quickSort(vetor, 0, vetor.length);
-    }
-
-    public void quickSort(int[] vetor, int ini, int fim) {
-        int i = ini;
-        int j = fim - 1;
-        if (i >= j) {
-            return;
-        }
-        int pivo = vetor[(ini + fim) / 2];
-
-        while (i < j) {
-            while (vetor[i] < pivo) {
-                i++;
-            }
-            while (vetor[j] > pivo) {
-                j--;
-            }
-            if (i < j) {
-                int aux = vetor[i];
-                vetor[i] = vetor[j];
-                vetor[j] = aux;
-                i++;
-                j--;
-            }
-            if (ini < j) {
-                quickSort(vetor, ini, j);
-            }
-            if (i < fim) {
-                quickSort(vetor, i, fim);
-            }
-        }
-    }
-*/
     public void quickSort(int[] arr, int low, int high) {
         
 
@@ -176,7 +140,6 @@ public class OrdenacaoCrescente {
     }
 
     public void heapSort(int[] arr) {
-        double tempoInicial = System.currentTimeMillis();
 
         int n = arr.length;
 
@@ -190,10 +153,6 @@ public class OrdenacaoCrescente {
 
             heapify(arr, i, 0);
         }
-
-        double tempoFinal = System.currentTimeMillis();
-        double tempoExecucao = tempoFinal - tempoInicial;
-        System.out.println("Tempo de execução em milissegundos: " + tempoExecucao);
     }
 
     private void heapify(int[] arr, int n, int i) {
