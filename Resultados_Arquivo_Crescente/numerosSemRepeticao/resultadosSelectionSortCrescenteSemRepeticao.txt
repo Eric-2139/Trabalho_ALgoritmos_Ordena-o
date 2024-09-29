@@ -8,3 +8,4 @@ crescente_sem_repeticao.txt                   SelectionSort             460000  
 crescente_sem_repeticao.txt                   SelectionSort             520000               27,0030
 crescente_sem_repeticao.txt                   SelectionSort             580000               33,6120
 crescente_sem_repeticao.txt                   SelectionSort             640000               41,2200
+crescente_sem_repeticao.txt                   SelectionSort             700000               45,8760
